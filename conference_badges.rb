@@ -15,8 +15,6 @@ def assign_rooms(list)
   return room
 end
 
-def printer(badge, room)
-  badge.each_with_idx |msg, idx|
-    puts msg + room[idx]
-  end
+def printer()
+ 
 end
