@@ -18,5 +18,5 @@ end
 def printer
   badges = batch_badge_creator(array)
   rooms = assign_rooms(list)
-
+  puts badges + rooms
 end
