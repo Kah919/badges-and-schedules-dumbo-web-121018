@@ -14,3 +14,9 @@ def assign_rooms(list)
   list.each { |name| room << "Hello, #{name}! You'll be assigned to room #{room.length + 1}!" }
   return room
 end
+
+def printer(badge, room)
+  badge.each_with_idx |msg, idx|
+    puts msg + room[idx]
+  end
+end
