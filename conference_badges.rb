@@ -6,4 +6,3 @@ end
 def batch_badge_creator(array)
   return array
 end
-
