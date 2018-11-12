@@ -9,14 +9,13 @@ def batch_badge_creator(array)
   return msg
 end
 
-def assign_rooms(list)
+def assign_rooms(array)
   room = []
   list.each { |name| room << "Hello, #{name}! You'll be assigned to room #{room.length + 1}!" }
   return room
 end
 
-def printer
-  badges = batch_badge_creator(array)
-  rooms = assign_rooms(list)
-  puts badges + rooms
+def printer(array)
+  batch_badge_creator.each { |msg| puts msg }
+  assign_rooms.each { |msg| puts msg}
 end
